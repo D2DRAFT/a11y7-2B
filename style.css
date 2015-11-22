@@ -135,12 +135,19 @@
 	}
 
 	.btn {
-		padding: 20px 30px;
-		font-size: 18px;
+		clear: both;
+		width: auto;
+		display: block;
+		margin: 0 auto;
+		padding:10px 30px;
+		border-radius: 0px 8px 0px 8px;
+		color: #ffffff;
+		background: #000;
+		font-size: 22px;
 		text-decoration: none;
-		color: #fff;
-		background-color: #000;
-		border-radius: 0 10px 0 10px;
+		background-image: url(img/arrow_right.gif);
+		background-position: 90% 50%;
+		background-repeat: no-repeat;
 	}
 
 	.btn:link, .btn:visited {
@@ -149,6 +156,9 @@
 
 	.btn:hover, .btn:focus {
 		background-color: #4d4d4d;
+		background-image: url(img/arrow_right.gif);
+		background-position: 90% 50%;
+		background-repeat: no-repeat;
 	}
 
 	.btn:focus {
@@ -217,10 +227,38 @@
 		margin-right: 4%;
 	}
 
-	.btn.more {
+	.more {
+		float: right;
+	}
+
+	.action_btn {
+		clear: both;
+	}
+
+	.action_btn a{
 		display: block;
-		width: 215px;
-		margin: 0 0 0 auto;
+		width: 665px;
+		height: 80px;
+		margin: 150px auto 0;
+		text-align: center;
+		text-decoration: none;
+		font-weight: bold;
+		background: url(img/bg_concretely_b.png) no-repeat bottom center;
+	}
+	.action_btn a:hover,
+	.action_btn a:focus {
+		color: #000;
+		background: url(img/bg_concretely_b_h.png) no-repeat bottom center;
+	}
+	.action_btn a > span {
+		display: block;
+		width: 100%;
+		padding: 20px 0 0;
+		background: url(img/bg_concretely_t.png) no-repeat top center;
+	}
+	.action_btn a:hover > span,
+	.action_btn a:focus > span {
+		background: url(img/bg_concretely_t_h.png) no-repeat top center;
 	}
 
 	/* for max-width 768px */
