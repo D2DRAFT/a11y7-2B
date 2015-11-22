@@ -243,14 +243,21 @@
 		text-align: center;
 		text-decoration: none;
 		font-weight: bold;
-		background: url(img/bg_concretely_b.png) no-repeat bottom center;
+		/*background: url(img/bg_concretely_b.png) no-repeat bottom center;*/
+		background-position: top center;
+		background-repeat: no-repeat;
+		background-image: url("img/bg_concretely_opa.png");
+		background-color: #fff;
+		line-height: 78px;
 	}
 	.action_btn a:hover,
 	.action_btn a:focus {
 		color: #000;
-		background: url(img/bg_concretely_b_h.png) no-repeat bottom center;
+		background-color: #dfdfdf;
+		/*background: url(img/bg_concretely_b_h.png) no-repeat bottom center;*/
 	}
-	.action_btn a > span {
+
+	/*.action_btn a > span {
 		display: block;
 		width: 100%;
 		padding: 20px 0 0;
@@ -259,7 +266,7 @@
 	.action_btn a:hover > span,
 	.action_btn a:focus > span {
 		background: url(img/bg_concretely_t_h.png) no-repeat top center;
-	}
+	}*/
 
 	/* for max-width 768px */
 
