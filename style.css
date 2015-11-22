@@ -281,7 +281,7 @@
 		}
 
 	/* add dl チーム */
-	#activity h3 {
+	#activity > h3 {
 		margin-top: 70px;
 	}
 
