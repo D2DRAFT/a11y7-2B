@@ -254,11 +254,16 @@
 		display: block;
 		width: 100%;
 		padding: 20px 0 0;
-		background: url(img/bg_concretely_t.png) no-repeat top center;
+		/*background: url(img/bg_concretely_t.png) no-repeat top center;*/
+		background-position: top center;
+		background-repeat: no-repeat;
+		background-image: url("img/bg_concretely_opa.png");
+		background-color: #fff;
 	}
 	.action_btn a:hover > span,
 	.action_btn a:focus > span {
-		background: url(img/bg_concretely_t_h.png) no-repeat top center;
+		background-color: #dfdfdf;
+		/*background: url(img/bg_concretely_t_h.png) no-repeat top center;*/
 	}
 
 	/* for max-width 768px */
