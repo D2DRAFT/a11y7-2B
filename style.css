@@ -241,3 +241,49 @@
 				margin-right: 0;
 			}
 		}
+
+	/* add dl チーム */
+	#activity h3 {
+		margin-top: 70px;
+	}
+
+	#activity dl {
+		max-width: 720px;
+		margin: 37px auto 0;
+		text-align: left;
+	}
+
+	#activity dt {
+		float: left;
+		clear: left;
+		width: 156px;
+	}
+
+	#activity dd {
+		margin-bottom: 10px;
+		padding-left: 156px;
+	}
+
+	#activity dd img {
+		margin-left: 7px;
+	}
+
+	#activity dd:last-child {
+		margin-bottom: 0;
+	}
+
+	@media only screen and (max-width: 640px) {
+		#activity dl {
+			max-width: 100%;
+			margin-top: 49px;
+		}
+
+		#activity dt {
+			width: 100%;
+		}
+
+		#activity dd {
+			width: 100%;
+			padding-left: 0;
+		}
+	}
