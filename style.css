@@ -135,9 +135,20 @@
 	}
 
 	.btn {
+		padding: 20px 30px;
+		font-size: 18px;
+		text-decoration: none;
+		color: #fff;
+		background-color: #000;
+		border-radius: 0 10px 0 10px;
+	}
+
+	.btn:link, .btn:visited {
+		color: #fff;
 	}
 
 	.btn:hover, .btn:focus {
+		background-color: #4d4d4d;
 	}
 
 	.btn:focus {
@@ -183,4 +194,36 @@
 			padding-right: 10%;
 			padding-left: 10%;
 		}
+	}
+
+/*  */
+
+	.action_intro {
+		position: relative;
+		width: 100%;
+		max-width: 945px;
+		margin: 0 auto;
+	}
+
+	.action_intro:after {
+		content: "";
+		clear: both;
+		display: block;
+	}
+
+	.action_intro .action_intro_inner {
+		width: 63%;
+		margin-left: 37%;
+		text-align: left;
+	}
+
+	.action_intro .action_photo {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 33%;
+		margin-right: 4%;
+	}
+
+	.btn.more {
 	}
